@@ -5,6 +5,12 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in natural_liquid.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
+group :test do
+  gem "rspec"
+  gem "simplecov", :require => false
+end
 
-gem "rspec", "~> 3.0"
+group :test, :development do
+  gem "pry"
+  gem "pry-byebug"
+end

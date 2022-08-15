@@ -1,0 +1,19 @@
+en:
+  hedges:
+    equal: [""]
+    around: ["around", "about", "approximately", "roughly"]
+    more: ["more than", "over"]
+    less: ["less than", "under", "nearly"]
+scales:
+  values:
+    - max: 1
+      scale: 0.05
+    - max: 5
+      scale: 0.5
+    - max: 30
+      scale: 1
+    - max: 200
+      scale: 5
+    - max: 10
+      scale: 1000
+  default: 100
