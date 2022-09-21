@@ -10,6 +10,7 @@ require_relative "natural_liquid/numberish/utils"
 require_relative "natural_liquid/version"
 require_relative "natural_liquid/text_filter"
 require_relative "natural_liquid/list_filter"
+require_relative "natural_liquid/select_filter"
 require_relative "natural_liquid/number_filter"
 
 module NaturalLiquid
